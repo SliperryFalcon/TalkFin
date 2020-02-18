@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+
+  <title>TalkFin</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+<style>
+  body{
+    background-color: gray;
+    height: 100%;
+    background-size: 100%
+     }
+</style>
+
+<body id="page-top">
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">TalkFin</h1>
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">Smart way for Communication</p>
+          <form>
+		  <style> 
+          a:hover {
+            background-color: red;
+
+          }
+          note-textarea:hover {
+            background-color: white;
+          }
+      </style>
+		 
+		  <a class="fa fa-microphone btn-xl js-scroll-trigger" style="font-size:78px;color:white;" aria-hidden="true" id="start-record-btn" style="color:white" title="Start Recording"></a><br><br>
+          <div class="input-single">
+          <center><textarea disabled id="note-textarea" placeholder="Your Speech..." rows="6" style="height: 50px; width: 300px; position: center;  background-color: transparent;"></textarea></center>
+        </div>
+        <a class="fa fa-pause" style="font-size:78px;color:white;" id="save-note-btn" style="color:white" title="Pause Recording"></a> <br><br> 
+        <!--<a class="fa fa-pause" style="font-size:78px;color:white;" id="train-note-btn" style="color:white" title="Train"></a> <br><br> -->
+        <h4><p id="recording-instructions" style="color:white"></p></h4>
+
+        <a class="fas fa-server"  style="font-size:78px;color:white;" href="temp/" aria-hidden="true" style="color:white" title="Train"></a><br><br>
+  
+        <video width="250" height="250" autoplay id="vid1" type="video/mp4"></video>
+		</div>
+      </div>
+    </div>
+	</form>
+  </header>
+
+  <!-- About Section -->
+ 
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        <!-- Only used for the demos ads. Please ignore and remove. --> 
+        <script src="https://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+
+</body>
+
+</html>
